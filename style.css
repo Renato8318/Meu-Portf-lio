@@ -1,4 +1,3 @@
-/* Tema Escuro */
 body {
     background-color: #121212; /* Fundo principal escuro */
     color: #f4f4f4; /* Texto claro */
@@ -25,11 +24,13 @@ body {
 }
 
 .hero img {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    max-width: 300px; /* Ajuste conforme necessário */
+    height: auto;
     border-radius: 15px;
     margin-right: 20px;
-    object-fit: cover;
+    object-fit: cover; /* Garantir que a imagem cubra o espaço sem distorcer */
+    object-position: top; /* Mantém a parte superior da imagem visível */
 }
 
 .hero h1 {
@@ -148,7 +149,10 @@ form button:hover {
     }
 
     .hero img {
-        margin: 0 0 20px;
+        max-width: 80%; /* Ajuste a largura em telas pequenas */
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
+
 
