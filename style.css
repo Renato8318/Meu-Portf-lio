@@ -1,11 +1,16 @@
-/* Tema Claro (padrão) */
+/* Tema Escuro */
 body {
-    background-color: #ffffff;
-    color: #333;
-    font-family: 'Roboto', sans-serif;
+    background-color: #121212; /* Fundo principal escuro */
+    color: #f4f4f4; /* Texto claro */
+    font-family: 'Arial', sans-serif; /* Fonte padrão do restante do site */
     line-height: 1.6;
     margin: 0;
     padding: 0;
+}
+
+/* Aplica Roboto apenas nos textos especificados */
+.roboto {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Seção Hero */
@@ -13,38 +18,37 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e6e4e4;
+    background-color: #1e1e1e; /* Fundo levemente mais claro */
     padding: 40px;
-    color: #333;
+    color: #f4f4f4;
     text-align: left;
 }
 
 .hero img {
-    width: 300px;  /* Mantém a largura retangular */
-    height: 200px; /* Ajusta a altura para um formato retangular */
-    border-radius: 15px; /* Bordas arredondadas */
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
     margin-right: 20px;
-    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    object-fit: cover;
 }
 
 .hero h1 {
-    font-family: 'Playfair Display', serif;
-    color: #333;
+    color: #bb86fc; /* Destaque em roxo claro */
 }
 
 .hero h2 {
-    font-family: 'Playfair Display', serif;
-    color: #007BFF;
+    color: #03dac6; /* Destaque em ciano */
 }
 
 .hero .btn {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background: #007BFF;
-    color: #fff;
+    background: #03dac6;
+    color: #121212;
     text-decoration: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 /* Seções do portfólio */
@@ -53,24 +57,23 @@ body {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
+    background-color: #1e1e1e; /* Fundo para seções */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 #projetos .projeto {
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #2a2a2a;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#projetos .projeto p {
-    color: #333;
 }
 
 #projetos .projeto:hover {
     transform: translateY(-10px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
 }
 
 #projetos a {
@@ -93,18 +96,18 @@ body {
 }
 
 #projetos .projeto .btn-vercel {
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #bb86fc;
+    color: #121212;
 }
 
 #projetos .projeto .btn-vercel:hover {
-    background-color: #0056b3;
+    background-color: #9a67ea;
     transform: scale(1.05);
 }
 
 /* Links sociais */
 .social-link {
-    color: #007BFF;
+    color: #03dac6;
     font-weight: bold;
     text-decoration: none;
 }
@@ -118,20 +121,23 @@ form input, form textarea {
     width: 90%;
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid #ccc;
+    background: #1e1e1e;
+    border: 1px solid #444;
     border-radius: 5px;
+    color: #f4f4f4;
 }
 
 form button {
     padding: 10px 15px;
-    background: #007BFF;
-    color: white;
+    background: #03dac6;
+    color: #121212;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: #028f86;
 }
 
 /* Responsividade */
@@ -145,3 +151,4 @@ form button:hover {
         margin: 0 0 20px;
     }
 }
+
