@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Renato Paiva, analista de suporte em transição para desenvolvedor front-end.">
     <title>Meu Portfólio</title>
+    
+    <!-- Link para a fonte Roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Link para FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- Link para o arquivo de estilo CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,7 +36,14 @@
         <p>Sou um entusiasta da tecnologia com uma forte paixão por resolver problemas e criar soluções inovadoras. Atualmente, estou expandindo minhas habilidades como estagiário em TI, onde tenho a oportunidade de trabalhar com diferentes tecnologias, incluindo programação, administração de sistemas e análise de dados. Estou sempre em busca de novos desafios que me permitam crescer como profissional e contribuir para projetos de impacto.</p>
         <p>Com uma mentalidade versátil, sou capaz de me adaptar rapidamente a novas situações e ambientes de trabalho. Sou comprometido com meus projetos, buscando sempre a excelência e a inovação. Minhas habilidades de comunicação eficaz e trabalho em equipe me permitem colaborar de forma produtiva, enquanto minha capacidade de gerenciar metas e trabalhar sob pressão me ajuda a entregar resultados consistentes em prazos desafiadores.</p>
         <p>Estou em busca de uma oportunidade para aplicar meus conhecimentos em desenvolvimento e crescer em um ambiente que valoriza a criatividade, a inovação e a colaboração.</p>
-        <p><a href="https://www.linkedin.com/in/renato-paiva2022/" target="_blank" rel="noopener" class="social-link">Meu LinkedIn</a> | <a href="mailto:paivarenato08@gmail.com" class="social-link">Meu Email</a></p>
+        <p>
+            <a href="https://www.linkedin.com/in/renato-paiva2022/" target="_blank" rel="noopener" class="social-link">
+                <i class="fab fa-linkedin"></i> Meu LinkedIn
+            </a> | 
+            <a href="mailto:paivarenato08@gmail.com" class="social-link">
+                <i class="fas fa-envelope"></i> Meu Email
+            </a>
+        </p>
     </section>
 
     <!-- Seção Meus Projetos -->
@@ -37,27 +52,39 @@
         <div class="projeto">
             <h3>Alura-Plus</h3>
             <p>Página inicial da plataforma de streaming da Alura.</p>
-            <a href="https://github.com/Renato8318/Alura-Plus" target="_blank" class="btn-github" rel="noopener">GitHub</a>
-            <a href="https://alura-plus-tawny-three.vercel.app/" target="_blank" class="btn-vercel" rel="noopener">Live</a>
+            <a href="https://github.com/Renato8318/Alura-Plus" target="_blank" class="btn-github" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://alura-plus-tawny-three.vercel.app/" target="_blank" class="btn-vercel" rel="noopener">
+                <i class="fab fa-vercel"></i> Vercel
+            </a>
         </div>
         <div class="projeto">
             <h3>AluraBooks</h3>
             <p>Projeto feito durante o curso de responsividade da Alura, um site que vende livros técnicos na área de tecnologia.</p>
-            <a href="https://github.com/Renato8318/AluraBooks" target="_blank" class="btn-github" rel="noopener">GitHub</a>
-            <a href="https://alura-books-ruby.vercel.app/" target="_blank" class="btn-vercel" rel="noopener">Live</a>
+            <a href="https://github.com/Renato8318/AluraBooks" target="_blank" class="btn-github" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://alura-books-ruby.vercel.app/" target="_blank" class="btn-vercel" rel="noopener">
+                <i class="fab fa-vercel"></i> Vercel
+            </a>
         </div>
         <div class="projeto">
             <h3>Lista-de-Compras</h3>
             <p>Lista de compras com a possibilidade de inclusão de itens.</p>
-            <a href="https://github.com/Renato8318/Lista-de-Compras" target="_blank" class="btn-github" rel="noopener">GitHub</a>
-            <a href="https://lista-de-compras-flame.vercel.app/" target="_blank" class="btn-vercel" rel="noopener">Live</a>
+            <a href="https://github.com/Renato8318/Lista-de-Compras" target="_blank" class="btn-github" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://lista-de-compras-flame.vercel.app/" target="_blank" class="btn-vercel" rel="noopener">
+                <i class="fab fa-vercel"></i> Vercel
+            </a>
         </div>
     </section>
 
     <!-- Seção Contato -->
     <section id="contato">
         <h2>Contato</h2>
-        <form>
+        <form action="/submit-form" method="POST">
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" placeholder="Seu Nome">
 
@@ -71,6 +98,10 @@
         </form>
     </section>
 
+    <!-- Link para o script JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
