@@ -1,4 +1,3 @@
-![foto-renato](https://github.com/user-attachments/assets/f9623009-c6c9-4b6c-880d-c58fb2e7d0f9)
 
 
 # Meu Portfólio Digital 🌐
