@@ -50,6 +50,12 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.hero .btn:hover {
+    background: #028f86; /* Fundo mais escuro ao passar o mouse */
+    transform: scale(1.05); /* Efeito de ampliação */
 }
 
 /* Seções do portfólio */
@@ -111,6 +117,7 @@ body {
     color: #03dac6;
     font-weight: bold;
     text-decoration: none;
+    transition: text-decoration 0.3s ease;
 }
 
 .social-link:hover {
@@ -126,6 +133,12 @@ form input, form textarea {
     border: 1px solid #444;
     border-radius: 5px;
     color: #f4f4f4;
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    background: #2a2a2a;
+    border-color: #03dac6; /* Cor de destaque ao focar nos campos */
 }
 
 form button {
@@ -135,6 +148,7 @@ form button {
     border: none;
     cursor: pointer;
     font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 form button:hover {
@@ -152,6 +166,11 @@ form button:hover {
         max-width: 80%; /* Ajuste a largura em telas pequenas */
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    #sobre, #projetos, #contato {
+        max-width: 100%; /* Ajuste para ocupar toda a largura da tela */
+        padding: 15px;
     }
 }
 
